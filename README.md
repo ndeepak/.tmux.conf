@@ -40,14 +40,26 @@ Managed via TPM:
 ## Installation
 
 ```bash
-git clone https://github.com/ndeepak/.tmux.conf ~/.tmux
+curl -o ~/.tmux.conf https://raw.githubusercontent.com/ndeepak/.tmux.conf/refs/heads/main/.tmux.conf
+```
+
+(Optional) If you keep configs in a directory:
+```bash
+mkdir -p ~/.tmux
 ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
 ```
 
-Install plugins:
-
+### Plugin Setup (TPM)
+Clone TPM manually:
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
+Then inside tmux:
+
+```bash
 Prefix + I
+# OR
+Ctrl-a + I
 ```
 
 ## Notes
