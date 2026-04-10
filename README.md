@@ -19,8 +19,8 @@ A clean, minimal, and productivity-focused tmux configuration designed for daily
 | Action               | Key                  |   |
 | -------------------- | -------------------- | - |
 | Prefix               | `Ctrl-a` or `Ctrl-b` |   |
-| Split Vertical       | `                    | ` |
-| Split Horizontal     | `-`                  |   |
+| Split Vertical       | `\|` or `"`          |   |
+| Split Horizontal     | `-` or `%"           |   |
 | Navigate Panes       | `h j k l`            |   |
 | Navigate (no prefix) | `Alt + h/j/k/l`      |   |
 | Resize Panes         | `Shift + H/J/K/L`    |   |
