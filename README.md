@@ -68,6 +68,9 @@ Ctrl-a + I
 * Works well over SSH and remote environments
 * Optimized for terminal-based workflows (Vim, pentesting, DevOps)
 
+Reference:  [TMux](https://github.com/Rezy-Dev/tmux-config/)
+
+
 ---
 
 Maintained by Deepak Nagarkoti [@ndeepak](https://github.com.ndeepak)
